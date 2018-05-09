@@ -93,6 +93,9 @@ extern "C" {
 #define MAX_GSC_WAITING_TIME_FOR_TRYLOCK (16000) // 16msec
 #define GSC_WAITING_TIME_FOR_TRYLOCK      (8000) //  8msec
 
+#define V4L2_MBUS_FMT_XRGB8888_4X8_LE 0x100e
+#define V4L2_MBUS_FMT_YUV8_1X24 0x2013
+
 typedef struct GscalerInfo {
     unsigned int width;
     unsigned int height;
